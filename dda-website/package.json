@@ -2,7 +2,7 @@
   "name": "dda-website",
   "version": "0.1.0",
   "private": true,
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,5 +17,13 @@
   "devDependencies": {
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UP2044509/DDA-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UP2044509/DDA-Website/issues"
+  },
+  "homepage": "https://github.com/UP2044509/DDA-Website#readme"
 }
