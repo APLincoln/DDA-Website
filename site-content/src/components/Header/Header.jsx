@@ -27,7 +27,7 @@ const Header = (props) => {
           <Link href="/">
             <Image src={logo} width="80" height="65" alt="logo" href="/" />
           </Link>
-          <div className="px-1"><a className=""><b>Queen Bee Crew</b></a></div>
+          <div className="px-1"><a className=""><b>Dina's Drive</b></a></div>
           <div className="ml-auto">
             <IconButton
               aria-label="more"
