@@ -1,0 +1,37 @@
+{
+  "name": "dda-website",
+  "version": "0.1.0",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.18",
+    "@mui/material": "^5.14.18",
+    "babel": "^6.23.0",
+    "next": "^12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UP2044509/DDA-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UP2044509/DDA-Website/issues"
+  },
+  "homepage": "https://github.com/UP2044509/DDA-Website#readme"
+}
