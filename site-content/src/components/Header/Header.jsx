@@ -22,7 +22,7 @@ const Header = (props) => {
     setAnchorEl(null);
   };
   return (
-    <h className="flex w-full border-b border-black py-2" >
+    <h className="flex w-full border-b border-black py-2 bg-white" >
       <div className="h-full w-full flex items-center px-2">
           <Link href="/">
             <Image src={logo} width="80" height="65" alt="logo" href="/" />
