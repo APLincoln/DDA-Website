@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Card from "../app/components/ImageCard/ImageCard";
-import profilePic2 from "../app/assets/red-profile-pic.png";
-import car from "../app/assets/car.png";
+import Card from "../components/ImageCard/ImageCard";
+import profilePic2 from "../assets/red-profile-pic.png";
+import car from "../assets/car.png";
 
 export default function About() {
   const intro =
