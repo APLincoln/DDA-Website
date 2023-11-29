@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 import { Inter } from "next/font/google";
 import { cookies } from "next/headers";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 import { TRPCReactProvider } from "~/trpc/react";
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         <TRPCReactProvider cookies={cookies().toString()}>
           {children}
         </TRPCReactProvider>
+        <Footer />
       </body>
     </html>
   );
