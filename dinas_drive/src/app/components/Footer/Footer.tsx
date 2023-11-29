@@ -28,7 +28,7 @@ export default function Footer() {
           />
         </a>
         <a
-          href="mailto: dina.lincoln@hotmail.com"
+          href="https://www.facebook.com/groups/1164648757636730"
           className="flex h-full w-1/3 items-center justify-center"
         >
           <Image
