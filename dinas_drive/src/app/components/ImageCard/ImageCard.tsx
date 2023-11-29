@@ -41,9 +41,9 @@ export default function Card({
       {reversed ? (
         <div
           id="Persona card"
-          className={`hidden h-full w-full flex-col items-center rounded-2xl bg-neutral-100 bg-opacity-50 lg:flex lg:flex-row lg:px-2`}
+          className={`hidden h-full w-full flex-col items-center rounded-2xl bg-neutral-100 bg-opacity-50 lg:flex lg:flex-row `}
         >
-          <span className="flex h-52 w-52 items-center justify-center">
+          <span className="flex h-52 basis-1/5 items-center justify-center">
             <Image
               src={image}
               alt="profile image"
@@ -52,25 +52,25 @@ export default function Card({
               className={`${rounded ? "rounded-full" : ""}`}
             />
           </span>
-          <div className="flex h-full w-full flex-col justify-center">
+          <div className="flex h-full basis-3/5 flex-col justify-center">
             {textContent.map((text) => (
               <p className="mt-1 px-4 text-center font-medium">{text}</p>
             ))}
           </div>
-          <span className="w-52"></span>
+          <span className="basis-1/5" />
         </div>
       ) : (
         <div
           id="Persona card"
-          className={`hidden h-full w-full flex-col items-center rounded-2xl bg-neutral-100 bg-opacity-50 lg:flex lg:flex-row lg:px-2`}
+          className={`hidden h-full w-full flex-col items-center rounded-2xl bg-neutral-100 bg-opacity-50 lg:flex lg:flex-row`}
         >
-          <span className="w-52"></span>
-          <div className="flex h-full w-full flex-col justify-center">
+          <span className="basis-1/5" />
+          <div className="flex h-full basis-3/5 flex-col justify-center">
             {textContent.map((text) => (
               <p className="mt-1 px-4 text-center font-medium">{text}</p>
             ))}
           </div>
-          <span className="flex h-52 w-52 items-center justify-center">
+          <span className="flex h-52 basis-1/5 items-center justify-center">
             <Image
               src={image}
               alt="profile image"
